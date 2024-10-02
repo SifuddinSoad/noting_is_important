@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Animation */
+.animate-closeWindow {
+ animation: closeWindow 0.22s ease-in-out;
+}
+
+@keyframes closeWindow {
+ 0% {
+  opacity: 1;
+ }
+ 90% {
+  top: 90%;
+ }
+ 100% {
+  top: 100%;
+  opacity: 0;
+ }
+}
