@@ -1,9 +1,9 @@
 import { Button, Select } from "antd";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useTimer from "../../hooks/useTimer";
 
 const { Option } = Select;
-let useEffect;
+
 
 type TodoTimerProps = {
  setCounterDown: React.Dispatch<React.SetStateAction<string | null>>;
